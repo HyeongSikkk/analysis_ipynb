@@ -1,2 +1,5 @@
 authors.py
+dbConnect.py
 test.ipynb
+__pycache__/*
+__pycache__
