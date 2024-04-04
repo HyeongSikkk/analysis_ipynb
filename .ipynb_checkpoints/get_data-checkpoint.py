@@ -11,7 +11,7 @@ import json
 import re
 import tqdm
 import time
-authors = authors[:10]
+
 while True :
     cur.execute(f"SELECT account_id FROM target_users ORDER BY RAND() LIMIT {len(authors) * 100};")
     target_users = cur.fetchall()
